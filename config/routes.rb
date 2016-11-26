@@ -4,7 +4,8 @@ Rails.application.routes.draw do
 root 'pages#index'
 
 #Define routes for pages, get means I want this page to be access as a web page.
-get '/profile' => 'pages#profile'
+
+get '/profile' => 'pages#profile'#display clean URL's
 
 get '/explore' => 'pages#explore'
 
