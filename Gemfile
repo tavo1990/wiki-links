@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
-
+# Devise for user authentication
+gem 'devise'
 #Add Bootstrap to wiki-links
 gem 'bootstrap-sass', '~> 3.3.6'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
