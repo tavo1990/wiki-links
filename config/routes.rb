@@ -1,12 +1,12 @@
 Rails.application.routes.draw do
 
-  devise_for :users
+devise_for :users
 #Define Root URL
 root 'pages#index'
 
 #Define routes for pages, get means I want this page to be access as a web page.
 
-get '/user/:id' => 'pages#profile'#display clean URL's
+get '/user' => 'pages#profile'#display clean URL's
 
 get '/explore' => 'pages#explore'
 
