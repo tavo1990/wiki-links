@@ -13,8 +13,9 @@ class PagesController < ApplicationController
   	# if (User.find_by_username(params[:id]))
   		@username = params[:id]
       @posts = Post.all
+      @newPost = Post.new
   	# else
-  	# 	#Redirect to 404 (fot now)
+  	# 	#Redirect to 404 (for now)
   	# 	redirect_to root_path, :notice=> "User not found!"
   	# end
   end
